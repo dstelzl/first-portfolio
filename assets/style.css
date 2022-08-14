@@ -3,3 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    background-color: #0F304E;
+    color: whitesmoke;
+}
+img {
+    height: 125px;
+    width: 150px;
+}
+
+.img-1 {
+    justify-content: stretch;
+}
+main {
+    color: #0f304e;
+}
+
+
+#LinkedIn {
+    color: white
+}
+
+footer{
+    background-color: #0F304E;
+    color: whitesmoke;
+    
+}
