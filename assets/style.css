@@ -20,12 +20,14 @@ main {
 }
 
 
-#LinkedIn {
+#links {
     color: white
 }
-
+#spaceholder{
+    height: 500px;
+    width: 1000px;
+}
 footer{
     background-color: #0F304E;
     color: whitesmoke;
     
-}
