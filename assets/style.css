@@ -24,7 +24,8 @@ h1{
 }
 /* */
 nav{
-    display: flex;
+    flex-direction: row;
+    align-content: space-around;
 }
 /* */
 main {
@@ -44,18 +45,20 @@ p{
 footer{
     background-color: #0F304E;
     color: whitesmoke;
+    max-height: auto;
+    display: flex;
 }
-/* */
+/* Resized images using % instead of px*/
 #proj1{
-    height: 300px;
-    width:600px;
+    height: 10%;
+    width:80%;
     padding-top: 20px;
 }
 #proj2{
-    height: 150px;
-    width:300px;
+    height: 10%;
+    width:40%;
 }
 #proj3{
-    height: 150px;
-    width:300px;
+    height: 10%;
+    width:40%;
 }
