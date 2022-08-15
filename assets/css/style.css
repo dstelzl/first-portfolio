@@ -34,17 +34,22 @@ nav {
 main {
   color: #0f304e;
   padding-top: 20px;
-  padding-left: 30px;
+  margin-left: 90px;
+ 
 }
-/* */
+/*set margin to keep text within view for full screen desktop view and adjusted line height for readability */
 p {
   padding-top: 20px;
+  margin-right: 120px;
+  line-height: 1.5;
 }
-/* Removed underlining with text decoration attribute*/
+/* Removed underlining with text decoration attribute, sent links to right with flex-end*/
 #links {
   color: white;
   text-decoration: none;
-  align-content: flex-end;
+  justify-content: flex-end;
+  row-gap: 10px;
+
 }
 /* */
 footer {
