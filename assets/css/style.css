@@ -1,0 +1,69 @@
+/* set up header container as a flex box giving it a background and font color*/
+header {
+    display: flex;
+  background-color: #0f304e;
+  color: whitesmoke;
+}
+/* created class of header to set up flex box in the container for the headshot and name*/
+.header {
+  display: flex;
+  flex-direction: row;
+}
+/*put space around the headshot image and gave it a set height */
+#headshot {
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+  height: 150px;
+}
+/*styled the font size, letter spacing and space inside the container*/
+h1 {
+  font-size: 60px;
+  letter-spacing: 5px;
+  padding-top: 40px;
+}
+/* */
+nav {
+  width: 40%;
+  display: flex;
+  justify-content: right;
+  font-size: 20px;
+}
+/* */
+main {
+  color: #0f304e;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+/* */
+p {
+  padding-top: 20px;
+}
+/* Removed underlining with text decoration attribute*/
+#links {
+  color: white;
+  text-decoration: none;
+  align-content: flex-end;
+}
+/* */
+footer {
+  background-color: #0f304e;
+  color: whitesmoke;
+  max-height: auto;
+  display: flex;
+}
+/* Resized images using % instead of px*/
+#proj1 {
+  height: 10%;
+  width: 80%;
+  padding-top: 20px;
+}
+#proj2 {
+  height: 10%;
+  width: 40%;
+}
+#proj3 {
+  height: 10%;
+  width: 40%;
+}
