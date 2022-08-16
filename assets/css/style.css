@@ -80,7 +80,7 @@ p {
   text-decoration: none;
   color: #0f304e;
 }
-/* */
+/*included a footer with no text for style purpose only */
 footer {
   background-color: #0f304e;
   height: 50px;
@@ -88,12 +88,7 @@ footer {
 
 
 
-@media screen and (max-width: 992px) {
-  .images {
-    width: 50%;
-  }
-}
-
+/* changed style attributes for smaller vieports */
 @media screen and (max-width: 576px) {
   .images {
     width: 100%;
@@ -103,4 +98,8 @@ footer {
     font-size: 1.2rem
     ;
   }
+  header, main{
+    padding-left: 4px;
+  }
+  
 }
