@@ -10,54 +10,57 @@
 </head>
 <body>
     <header>
-            <section class="header">
-                <img id="headshot"  src="./assets/images/DeeAnnHeadshot.jpeg" alt="headshot">
+            <!--Removed section after class discussion re structure of page. Also changed unordered list back to nav for simplicity-->>
+                
                  <h1>DEEANN STELZL</h1>
             </section>
-             <ul>
-                <li>
+             <nav>
+               
                     <a id="links" href="#about-me">About Me</a>
-                </li>
-                <li>
+             
                     <a id="links" href="#work">Work</a>
-                </li>
-                <li>
+
                     <a id="links" href="#contact">Contact</a> 
-                </li> 
-                <li>
-                    <a id="links" href="#resume">Resume</a> 
-                </li> 
-             </ul>
+
+                    <a id="links" href="https://docs.google.com/document/d/1OfH66thtsTQDmNh6xtVn_dNVC9nk5H16B4BQmJSZrGc/edit?usp=sharing" target="_blank" >Resume </a> 
+            </nav>
     </header>
 
     <main>
     <!--About Me-->
             <section>
                 <h2 id="about-me">About Me </h2>
+                <img id="headshot"  src="./assets/images/DeeAnnHeadshot.jpeg" alt="headshot">
                     <p>After raising three kids- DeeAnn Stelzl found herself immersed inside the world of digital marketing - first as a project manager and then as a developer of landing pages and email campaigns designed to attract new clients and monetize website visitors. Her unique background sets the stage for a web developer who can visualize the end goal and final project long before she writes her first line of code.</p>
    
                     <p>DeeAnn's technical skills include front end web development tools such as HTML/CSS, Javascript/jQuery, Responsive Design, React.js and others. She has worked on API Design, Databases such as MySQL and MongoDB and is familiar with deployment and delivery tools like Git, Shell Scripting, Github and Unit Testing. </p>
                   
                 </section>
-<!--Work: Resized images to create requested layout and linked to placeholder URL created in google docs-->
+<!--Work: Resized images to create requested layout and linked to placeholder URL created in google docs. Changed tags to simplify structure-->
            <section>
                 <h2 id="work">Work </h2>
-            <div class="images">
-                <a href="https://docs.google.com/document/d/1BqbAvw28n-85w6aQSYThBDCl3L02DOObJnZ9DMHSR28/edit?usp=sharing">
+            <article> class="images">
+                    <a href="https://docs.google.com/document/d/1BqbAvw28n-85w6aQSYThBDCl3L02DOObJnZ9DMHSR28/edit?usp=sharing">
                     <img id="proj1" src="./assets/images/PROJECT 1.png" alt="Project One Image"/></a>
-                <a href="https://docs.google.com/document/d/1BqbAvw28n-85w6aQSYThBDCl3L02DOObJnZ9DMHSR28/edit?usp=sharing">
+                </article>
+               
+                <article> <a href="https://docs.google.com/document/d/1BqbAvw28n-85w6aQSYThBDCl3L02DOObJnZ9DMHSR28/edit?usp=sharing">
                     <img id="proj2" src="./assets/images/Project2.png" alt="Project Two Image"/></a>
-                <a href="https://docs.google.com/document/d/1BqbAvw28n-85w6aQSYThBDCl3L02DOObJnZ9DMHSR28/edit?usp=sharing">
+                </article> 
+
+                <article>   <a href="https://docs.google.com/document/d/1BqbAvw28n-85w6aQSYThBDCl3L02DOObJnZ9DMHSR28/edit?usp=sharing">
                     <img id="proj3" src="./assets/images/Project3.png" alt="Project Three Image"/></a>
-            </div>
+                </article> 
             </section>
 <!--Contact-->
-            <section>
-                <h2 id="contact"> Contact</h2>  
+            <section id="contact">
+                <h2 > Contact</h2>  
+                <div>
                 <p> 
                     <a href="https://www.linkedin.com/in/deeann-stelzl-4402b9127/">LinkedIn</a>
                     <a href="https://www.github.com/dstelzl">Github</a>
                 </p> 
+            </div>
             </section>
             <section>
                 <h2 id="resume" >Resume</h2>  
@@ -70,7 +73,7 @@
     <footer>
       
         <ul>
-            <li>&copy deeannstelzl.com</li>
+            
             <li>
                 <a id="links" href="#about-me">About Me</a>
             </li>
@@ -98,7 +101,6 @@
 <!--GIVEN I need to sample a potential employee's previous work
     WHEN I load their portfolio
     
-    WHEN I click on the images of the applications
-    THEN I am taken to that deployed application
+  
     WHEN I resize the page or view the site on various screens and devices
     THEN I am presented with a responsive layout that adapts to my viewport

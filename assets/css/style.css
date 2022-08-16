@@ -1,34 +1,31 @@
 /* set up header container as a flex box giving it a background and font color*/
 header {
-    display: flex;
+  display: flex;
   background-color: #0f304e;
   color: whitesmoke;
+  padding: 10px;
 }
 /* created class of header to set up flex box in the container for the headshot and name*/
 .header {
   display: flex;
   flex-direction: row;
 }
-/*put space around the headshot image and gave it a set height */
+/*give image a set height */
 #headshot {
-  padding-top: 20px;
-  padding-left: 30px;
-  padding-bottom: 20px;
-  padding-right: 50px;
   height: 150px;
 }
 /*styled the font size, letter spacing and space inside the container*/
 h1 {
-  font-size: 60px;
+  font-size: 50px;
   letter-spacing: 5px;
+  font-weight: 200;
   padding-top: 40px;
 }
 
 /* added sub-heading details*/
-h2{
-    font-size: 30px;
-    margin-top: 10px;
-
+h2 {
+  font-size: 30px;
+  margin-top: 10px;
 }
 /*added attributes to list items to line up hotizontally and separate by 10px */
 li {
@@ -37,15 +34,14 @@ li {
   margin-right: 10px;
   font-size: 20px;
 }
-ul{
-    
+ul {
 }
 /*added to main element...no changes*/
 main {
   color: #0f304e;
   padding-top: 20px;
   margin-left: 90px;
- text-decoration: none;
+  text-decoration: none;
 }
 /*set margin to keep text within view for full screen desktop view and adjusted line height for readability */
 p {
@@ -60,14 +56,12 @@ p {
   text-decoration: none;
   justify-content: flex-end;
   row-gap: 10px;
-
 }
 /* */
 footer {
   background-color: #0f304e;
   color: whitesmoke;
- height: 50px;
-  
+  height: 50px;
 }
 /* Resized images using % instead of px*/
 #proj1 {
@@ -83,10 +77,23 @@ footer {
   height: 10%;
   width: 40%;
 }
-.contact{
-    text-decoration: none;
+.contact {
+  text-decoration: none;
 }
 /*wrapped images in div and set margin to line up with paragraph above*/
-.images{
-margin-left: 30px;
+.images {
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 992px) {
+    .images{
+        width: 50%;
+    }
+}
+    
+
+@media screen and (max-width: 576px) {
+    .images{
+        width: 100%;
+    }
 }
