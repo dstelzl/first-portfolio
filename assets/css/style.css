@@ -26,7 +26,6 @@ h1 {
   font-size: 50px;
   letter-spacing: 5px;
   font-weight: 200;
-  
 }
 
 /* added sub-heading details*/
@@ -37,7 +36,7 @@ h2 {
 }
 /* Using sizing percentages and flex properties
 I arranged images as indicated in the instructions */
-#secondary-work{
+#secondary-work {
   display: flex;
 }
 #proj1 {
@@ -53,13 +52,14 @@ I arranged images as indicated in the instructions */
   /* height: 10%; */
   width: 50%;
 }
-#proj2 img, #proj3 img{
-width: 100%;
+#proj2 img,
+#proj3 img {
+  width: 100%;
 }
 /*set max-width to keep content within a reasonable portion of viewport*/
 main {
- max-width: 800px;
- margin: auto;
+  max-width: 800px;
+  margin: auto;
 }
 /*set margin to keep text within view for full screen desktop view and adjusted line height for readability */
 p {
@@ -68,15 +68,14 @@ p {
   color: #0f304e;
 }
 /* Removed underlining with text decoration attribute, sent links to right with flex-end*/
-#contact section{
+#contact section {
   display: flex;
   justify-content: space-around;
   padding: 8px;
-  font-size: 1.5rem
-  ;
+  font-size: 1.5rem;
 }
 
-#contact a{
+#contact a {
   text-decoration: none;
   color: #0f304e;
 }
@@ -86,20 +85,17 @@ footer {
   height: 50px;
 }
 
-
-
 /* changed style attributes for smaller vieports */
 @media screen and (max-width: 576px) {
   .images {
     width: 100%;
   }
-  #contact section{
+  #contact section {
     flex-direction: column;
-    font-size: 1.2rem
-    ;
+    font-size: 1.2rem;
   }
-  header, main{
+  header,
+  main {
     padding-left: 4px;
   }
-  
 }
