@@ -10,19 +10,15 @@
 </head>
 <body>
     <header>
-            <!--Removed section after class discussion re structure of page. Also changed unordered list back to nav for simplicity-->>
+            <!--Removed section after class discussion re structure of page. Also changed unordered list back to nav for simplicity-->
                 
-                 <h1>DEEANN STELZL</h1>
+                 <h1>PORTFOLIO: DEEANN STELZL</h1>
             </section>
-             <nav>
-               
-                    <a id="links" href="#about-me">About Me</a>
-             
+             <nav>            
+                    <a id="links" href="#about-me">About Me</a>       
                     <a id="links" href="#work">Work</a>
-
                     <a id="links" href="#contact">Contact</a> 
-
-                    <a id="links" href="https://docs.google.com/document/d/1OfH66thtsTQDmNh6xtVn_dNVC9nk5H16B4BQmJSZrGc/edit?usp=sharing" target="_blank" >Resume </a> 
+                    <a id="links" href="https://docs.google.com/document/d/1OfH66thtsTQDmNh6xtVn_dNVC9nk5H16B4BQmJSZrGc/edit?usp=sharing" target="_blank" > Resume </a> 
             </nav>
     </header>
 
@@ -39,57 +35,43 @@
 <!--Work: Resized images to create requested layout and linked to placeholder URL created in google docs. Changed tags to simplify structure-->
            <section>
                 <h2 id="work">Work </h2>
-            <article> class="images">
+            <div>
+                <article> 
                     <a href="https://docs.google.com/document/d/1BqbAvw28n-85w6aQSYThBDCl3L02DOObJnZ9DMHSR28/edit?usp=sharing">
                     <img id="proj1" src="./assets/images/PROJECT 1.png" alt="Project One Image"/></a>
-                </article>
-               
-                <article> <a href="https://docs.google.com/document/d/1BqbAvw28n-85w6aQSYThBDCl3L02DOObJnZ9DMHSR28/edit?usp=sharing">
-                    <img id="proj2" src="./assets/images/Project2.png" alt="Project Two Image"/></a>
-                </article> 
-
-                <article>   <a href="https://docs.google.com/document/d/1BqbAvw28n-85w6aQSYThBDCl3L02DOObJnZ9DMHSR28/edit?usp=sharing">
-                    <img id="proj3" src="./assets/images/Project3.png" alt="Project Three Image"/></a>
-                </article> 
+            </article>
+        </div> 
+        <div id="secondary-work">
+            <article id="proj2"> <a href="https://docs.google.com/document/d/1BqbAvw28n-85w6aQSYThBDCl3L02DOObJnZ9DMHSR28/edit?usp=sharing">
+                    <img src="./assets/images/Project2.png" alt="Project Two Image"/></a>
+            </article> 
+        
+            <article id="proj3">   <a href="https://docs.google.com/document/d/1BqbAvw28n-85w6aQSYThBDCl3L02DOObJnZ9DMHSR28/edit?usp=sharing">
+                    <img src="./assets/images/Project3.png" alt="Project Three Image"/></a>
+            </article> 
+        </div>
             </section>
 <!--Contact-->
             <section id="contact">
                 <h2 > Contact</h2>  
-                <div>
-                <p> 
+                <section>
+                <div > 
                     <a href="https://www.linkedin.com/in/deeann-stelzl-4402b9127/">LinkedIn</a>
+                </div>  
+                <div>
                     <a href="https://www.github.com/dstelzl">Github</a>
-                </p> 
-            </div>
+                </div>
+                <div>
+                    <a href="mailto: placeholder@bootcamp.com">
+                        placeholder@bootcamp.com
+                    </a>
+                </div>
             </section>
-            <section>
-                <h2 id="resume" >Resume</h2>  
-                <p> 
-                    <a href="https://docs.google.com/document/d/1OfH66thtsTQDmNh6xtVn_dNVC9nk5H16B4BQmJSZrGc/edit?usp=sharing">DeeAnn's Resume</a>
-                </p> 
-            </section>
+           
     </main>
-  
-    <footer>
-      
-        <ul>
-            
-            <li>
-                <a id="links" href="#about-me">About Me</a>
-            </li>
-            <li>
-                <a id="links" href="#work">Work</a>
-            </li>
-            <li>
-                <a id="links" href="#contact">Contact</a> 
-            </li> 
-            <li>
-                <a id="links" href="#resume">Resume</a> 
-            </li> 
-         </ul>
-          
-    </footer>
-    
+  <footer>
+    <!--style only-->
+  </footer>  
 </body>
 </html>
 
@@ -99,8 +81,15 @@
 
 
 <!--GIVEN I need to sample a potential employee's previous work
-    WHEN I load their portfolio
-    
-  
-    WHEN I resize the page or view the site on various screens and devices
-    THEN I am presented with a responsive layout that adapts to my viewport
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport
