@@ -23,19 +23,29 @@ h1 {
   letter-spacing: 5px;
   padding-top: 40px;
 }
-/* */
-nav {
+
+/* added sub-heading details*/
+h2{
+    font-size: 30px;
+    margin-top: 10px;
+
+}
+/*added attributes to list items to line up hotizontally and separate by 10px */
+li {
   width: 40%;
-  display: flex;
-  justify-content: right;
+  display: inline;
+  margin-right: 10px;
   font-size: 20px;
 }
-/* */
+ul{
+    
+}
+/*added to main element...no changes*/
 main {
   color: #0f304e;
   padding-top: 20px;
   margin-left: 90px;
- 
+ text-decoration: none;
 }
 /*set margin to keep text within view for full screen desktop view and adjusted line height for readability */
 p {
@@ -55,8 +65,8 @@ p {
 footer {
   background-color: #0f304e;
   color: whitesmoke;
-  max-height: auto;
-  display: flex;
+ height: 50px;
+  
 }
 /* Resized images using % instead of px*/
 #proj1 {
@@ -71,4 +81,10 @@ footer {
 #proj3 {
   height: 10%;
   width: 40%;
+}
+.contact{
+    text-decoration: none;
+}
+
+
 }
