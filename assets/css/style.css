@@ -51,6 +51,7 @@ main {
 p {
   padding-top: 20px;
   margin-right: 120px;
+  margin-left: 30px;
   line-height: 1.5;
 }
 /* Removed underlining with text decoration attribute, sent links to right with flex-end*/
@@ -85,6 +86,7 @@ footer {
 .contact{
     text-decoration: none;
 }
-
-
+/*wrapped images in div and set margin to line up with paragraph above*/
+.images{
+margin-left: 30px;
 }
